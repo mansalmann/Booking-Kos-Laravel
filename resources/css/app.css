@@ -1,0 +1,67 @@
+body{
+    min-height: 100vh;
+    font-family: "Poppins";
+    background-color: #dae1e9;
+    color: #070707;
+}
+
+.\!bg-ngekos-black {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(7 7 7 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-ngekos-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(7 7 7 / var(--tw-bg-opacity));
+}
+
+.bg-ngekos-orange {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 128 26 / var(--tw-bg-opacity));
+}
+
+.text-ngekos-grey {
+    --tw-text-opacity: 1;
+    color: rgb(94 111 118 / var(--tw-text-opacity));
+}
+
+.text-ngekos-orange {
+    --tw-text-opacity: 1;
+    color: rgb(255 128 26 / var(--tw-text-opacity));
+}
+
+.text-ngekos-black {
+    --tw-text-opacity: 1;
+    color: rgb(7 7 7 / var(--tw-text-opacity));
+}
+
+.\!text-ngekos-orange {
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 128 26 / var(--tw-text-opacity)) !important;
+}
+
+.placeholder\:text-ngekos-grey::-moz-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(94 111 118 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-ngekos-grey::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(94 111 118 / var(--tw-text-opacity));
+}
+
+.invalid\:text-ngekos-grey:invalid {
+    --tw-text-opacity: 1;
+    color: rgb(94 111 118 / var(--tw-text-opacity));
+}
+
+.hover\:bg-ngekos-black:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(7 7 7 / var(--tw-bg-opacity));
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
