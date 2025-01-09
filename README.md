@@ -10,7 +10,7 @@ Aplikasi Web Sewa Kamar Kos dengan Laravel 11, Filament, Livewire, Midtrans Paym
 4. Halaman pencarian riwayat pembayaran berdasarkan ID Booking, email, dan nomor telepon
 5. Halaman aduan, saran, dan kritik ke email developer menggunakan Mailtrap
 6. Pengiriman pesan otomatis konfirmasi pembayaran yang sukses ke Whatsapp pelanggan menggunakan Twilio
-7. Fitur panel admin menggunakan livewire
+7. Fitur panel admin menggunakan Filament
 
 ### Detail Tech Stack
 1. Laravel 11.31.0
