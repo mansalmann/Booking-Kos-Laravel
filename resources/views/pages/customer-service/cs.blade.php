@@ -8,6 +8,9 @@
             <form action="{{ route('customer-service-mail') }}" method="POST"
                 class="flex flex-col rounded-[30px] border border-[#F1F2F6] p-5 gap-6 bg-white">
                 @csrf
+                @if(session('success'))
+                <p class="text-center text-green-500">{{ session('success') }}</p>
+                @endif
                 <div id="InputContainer" class="flex flex-col gap-[18px]">
                     <div class="flex flex-col w-full gap-2">
                         <p class="font-semibold">Keluhan/Kritik</p>
